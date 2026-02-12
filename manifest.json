@@ -1,0 +1,11 @@
+{
+"manifest_version": 3,
+"name": "Alternar 2 Abas",
+"version": "1.0",
+"description": "Ativa alternadamente as duas primeiras abas a cada 20 s",
+"permissions": ["tabs"],
+"background": {
+"service_worker": "background.js"
+},
+"action": { "default_title": "Alternar ON/OFF" }
+}
