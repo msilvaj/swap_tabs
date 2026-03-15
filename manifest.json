@@ -3,7 +3,7 @@
 "name": "Alternar 2 Abas",
 "version": "1.0",
 "description": "Ativa alternadamente as duas primeiras abas a cada 20 s",
-"permissions": ["tabs"],
+"permissions": ["tabs", "alarms"],
 "background": {
 "service_worker": "background.js"
 },
